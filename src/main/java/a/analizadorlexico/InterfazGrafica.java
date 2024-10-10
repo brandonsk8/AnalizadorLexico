@@ -40,7 +40,7 @@ public class InterfazGrafica extends JFrame {
         textAreaCodigo.setFont(new Font("Consolas", Font.PLAIN, 14));
         textAreaCodigo.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         JScrollPane scrollPane = new JScrollPane(textAreaCodigo);
-        panelCentro.add(new JLabel("Ingrese el código mixto para analizar:"), BorderLayout.NORTH);
+        panelCentro.add(new JLabel("Ingrese el códigopara analizar:"), BorderLayout.NORTH);
         panelCentro.add(scrollPane, BorderLayout.CENTER);
         add(panelCentro, BorderLayout.CENTER);
 
@@ -91,7 +91,7 @@ public class InterfazGrafica extends JFrame {
                 codigo = optimizarCodigo(codigo); // Optimización de código
                 String resultado = analizarCodigoMixto(codigo); // Unificar análisis de HTML, CSS, JS
                 textAreaCodigo.setText(resultado);
-                etiquetaResultado.setText("Análisis del código mixto completado.");
+                etiquetaResultado.setText("Análisis del código  completado.");
             }
         });
 
