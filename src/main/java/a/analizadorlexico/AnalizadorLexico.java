@@ -3,7 +3,6 @@
  */
 
 package a.analizadorlexico;
-import java.util.Scanner;
 /**
  *
  * @author brandon
